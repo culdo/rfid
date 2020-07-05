@@ -32,7 +32,9 @@
 MFRC522 mfrc522(SS_PIN, RST_PIN);   // Create MFRC522 instance
 
 /* Set your new UID here! */
-#define NEW_UID {0xDE, 0xAD, 0xBE, 0xEF}
+#define NEW_UID {0xDE, 0xAD, 0xBE, 0xEF} //0x92, 0x95, 0x45, 0x08 GG 3752517672
+                                         //0xC2, 0x8F, 0x45, 0x08 hole 4980717672
+                                         //0x3B, 0x9C, 0xAF, 0x29 college assist
 
 MFRC522::MIFARE_Key key;
 
